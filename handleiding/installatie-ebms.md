@@ -67,7 +67,7 @@ keytool -importkeystore -srcstoretype pkcs12 -srckeystore keystore.p12 -deststor
 De applicatie maakt gebruik van properties. De default properties kunnen worden overridden. De locatie van de override properties file is `<catalina.home>/conf/ebms-web.properties`  
 Hieronder volgt een overzicht van de belangrijkste properties per catogory die zouden kunnen worden overridden. [ebms-web.properties]({{ site.baseurl }}{% link handleiding/properties/ebms-web.md %}) bevat een voorbeeld van het `ebms-web.properties` bestand.
 
-![image](/assets/images/ebms-web.png)
+![image]({{ site.baseurl }}/assets/images/ebms-web.png)
 
 #### SSL
 De applicatie biedt de volgende properties voor SSL configuratie
@@ -134,7 +134,7 @@ ebms.jdbc.url=jdbc:postgresql://<host>:<port>/<dbname>
 #### Routeren via proxy server
 Het is ook mogelijk om uitgaand verkeerd te routeren via een proxy server.
 
-![image](/assets/images/ebms-web-rproxy.png)
+![image]({{ site.baseurl }}/assets/images/ebms-web-rproxy.png)
 
 Voeg hiervoor de volgende properties toe aan `ebms-web.properties` (zie [Configureren ebms-web.properties](#configureren-ebms-webproperties)):
 
@@ -171,7 +171,7 @@ De ebms-adapter soap interface is vervolgens bereikbaar op [http://localhost:808
 
 De EbMS Admin Console is een losse applicatie waarmee de EbMS adapter kan worden beheerd. Via de Admin Console kunnen de CPA’s worden beheerd, kunnen verschillende EbMS functies worden uitgevoerd (zoals het uitvoeren van een EbMS ping, EbMS berichten versturen en bekijken) en kan het EbMS verkeer worden gemonitord.
 
-![image](/assets/images/ebms-admin-rproxy.png)
+![image]({{ site.baseurl }}/assets/images/ebms-admin-rproxy.png)
 
 ### Configureren ebms-admin.properties  
 Zie [ebms-admin.properties]({{ site.baseurl }}{% link handleiding/properties/ebms-admin.md %})

@@ -10,14 +10,14 @@ Met de Grote Berichten koppeling kunnen bestanden worden uitgewisseld tussen het
 
 De EbMS koppeling moet voldoen aan *Koppelvlakstandaard Grote Berichten voor Digikoppeling 3.0* en *Voorstel wijziging Grote Berichten standaard 0.4*. De koppeling gebruikt HTTPS. Hiervoor zijn beveiligings keys en certificaten nodig in de vorm van PKI Overheidcertificaten.
 
-![image](/assets/images/gb-adapter.png)
+![image]({{ site.baseurl }}/assets/images/gb-adapter.png)
 
 ## Open Source Grote Berichten adapter en console
 Voor de realisatie van de Grote Berichten koppeling met het Nationaal Archief kan gebruik worden gemaakt van de nog source Grote Berichten adapter (zie [Installeren Grote Berichten adapter]({{ site.baseurl }}{% link handleiding/installatie-gb-adapter.md %})) en de Grote Berichten console (zie [Installeren Grote Berichten console]({{ site.baseurl }}{% link handleiding/installatie-gb-console.md %})). Hierna volgt een kort technische beschrijving van de open source Grote Berichten adapter en console.
 
 De open source Grote Berichten adapter heeft een SOAP interface voor het verzenden van bestanden via de Grote Berichten adapter vanuit één of meerdere applicaties, zoals de Grote Berichten console.
 
-![image](/assets/images/gb.png)
+![image]({{ site.baseurl }}/assets/images/gb.png)
 
 De Grote Berichten adapter slaat de metadata van een Grote Berichten transactie op in een database. De volgende databases worden ondersteund
 - HSQLDB (test only)

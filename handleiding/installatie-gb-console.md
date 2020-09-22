@@ -19,7 +19,7 @@ Zie [Configuratie Tomcat]({{ site.baseurl }}/handleiding/installatie-ebms.html#c
 De applicatie maakt gebruik van properties. De default properties kunnen worden overridden. De locatie van de override properties file is `<catalina.home>/conf/gb-console.properties`  
 Hieronder volgt een overzicht van de belangrijkste properties per catogory die zouden kunnen worden overridden. [gb-console.properties]({{ site.baseurl }}{% link handleiding/properties/gb-console.md %}) bevat een voorbeeld van het `gb-console.properties` bestand.
 
-![image](/assets/images/gb-web.png)
+![image]({{ site.baseurl }}/assets/images/gb-web.png)
 
 #### Grote berichten adapter properties
 De applicatie biedt de volgende properties voor Grote Berichten interface configuratie

@@ -10,7 +10,7 @@ Met de EbMS koppeling kunnen berichten secure en reliable worden uitgewisseld tu
 
 De EbMS koppeling moet voldoen aan *Koppelvlakstandaard ebMS voor Digikoppeling 3.0*. De koppeling gebruikt HTTPS en de berichten worden gesigneerd. Hiervoor zijn beveiligings keys en certificaten nodig in de vorm van PKI Overheidcertificaten.
 
-![image](/assets/images/ebms-overview.png)
+![image]({{ site.baseurl }}/assets/images/ebms-overview.png)
 
 ## Open Source EbMS adapter
 
@@ -20,7 +20,7 @@ De open source EbMS adapter heeft 2 interfaces
 - EbMS interface om te communiceren met een andere EbMS adapter
 - SOAP interface voor het verzenden en ontvangen van berichten via de EbMS adapter vanuit   één of meerdere keten (partner) applicaties.
 
-![image](/assets/images/ebms-rproxy1.png)
+![image]({{ site.baseurl }}/assets/images/ebms-rproxy1.png)
 
 De EbMS adapter slaat de binnengekomen en uitgaande berichten op in een database. De volgende databases worden ondersteunt
 - HSQLDB (test only)
@@ -39,7 +39,7 @@ De proxy server is nodig om de EbMS interface te ontsluiten via het internet en 
 
 Het Nationaal Archief heeft een aantal EbMS omgevingen waarmee (keten)partners kunnen koppelen. Er zijn een productie en een TED omgeving op het internet ontsloten en er zijn een productie en een TED omgeving op de Haagse Ring aangesloten. Hierna volgt een overzicht van deze omgevingen.
 
-![image](/assets/images/ebms-rproxy2.png)
+![image]({{ site.baseurl }}/assets/images/ebms-rproxy2.png)
 
 Het Client IP Adres bevat het IP adres waarmee de EbMS adapter van het Nationaal Archief verbinding maakt met de Proxy/EbMS adapter van de (keten)partner.
 

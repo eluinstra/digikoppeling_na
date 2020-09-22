@@ -25,7 +25,7 @@ Zie [Genereren Keystore]({{ site.baseurl }}/handleiding/installatie-ebms.html#ge
 De applicatie maakt gebruik van properties. De default properties kunnen worden overridden. De locatie van de override properties file is `<catalina.home>/conf/gb-web.properties`  
 Hieronder volgt een overzicht van de belangrijkste properties per category die zouden kunnen worden overridden. [gb-web.properties]({{ site.baseurl }}{% link handleiding/properties/gb-web.md %}) bevat een voorbeeld van het `gb-web.properties` bestand.
 
-![image](/assets/images/gb-web.png)
+![image]({{ site.baseurl }}/assets/images/gb-web.png)
 
 #### Common
 De applicatie biedt de volgende properties voor Common configuratie
@@ -93,7 +93,7 @@ gb.jdbc.url=jdbc:postgresql://<host>:<port>/<dbname>
 
 Het is ook mogelijk om uitgaand verkeerd te routeren via een proxy server.
 
-![image](/assets/images/gb-web-rproxy.png)
+![image]({{ site.baseurl }}/assets/images/gb-web-rproxy.png)
 
 Voeg hiervoor de volgende properties toe aan gb-web.properties (zie Configureren gb-web.properties):
 
