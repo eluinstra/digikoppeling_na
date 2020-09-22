@@ -115,7 +115,7 @@ cp gb-adapter-2.4.4.1.war $TOMCAT_HOME/webapps/gb-adapter.war
 ```
 
 #### Windows
-```sh
+```powershell
 copy gb-web.properties %TOMCAT_HOME%\conf\
 copy keystore.jks %TOMCAT_HOME%\conf\
 copy truststore.jks %TOMCAT_HOME%\conf\

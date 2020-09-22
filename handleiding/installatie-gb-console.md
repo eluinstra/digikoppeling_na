@@ -99,7 +99,7 @@ cp gb-console-2.4.4.1.war $TOMCAT_HOME/webapps/gb-console.war
 ```
 
 #### Windows
-```sh
+```powershell
 copy gb-console.properties %TOMCAT_HOME%\conf\
 copy gb-console-2.4.4.1.war %TOMCAT_HOME%\webapps\gb-console.war
 ```

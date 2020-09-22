@@ -166,7 +166,7 @@ cp ebms-adapter-2.13.3.war $TOMCAT_HOME/webapps/ebms-adapter.war
 ```
 
 #### Windows
-```sh
+```powershell
 copy <jdbc-driver.jar> %TOMCAT_HOME%\lib\
 copy ebms-web.properties %TOMCAT_HOME%\conf\
 copy keystore.jks %TOMCAT_HOME%\conf\
@@ -198,7 +198,7 @@ chmod u+x /opt/ebms-admin/start.sh
 ```
 
 #### Windows
-```sh
+```powershell
 mkdir c:\ebms-admin
 copy ebms-admin.properties c:\ebms-admin\
 copy ebms-admin-2.13.3.jar c:\ebms-admin\
@@ -214,7 +214,7 @@ cd /opt/ebms-admin
 ```
 
 #### Windows
-```sh
+```powershell
 cd c:\ebms-admin
 start.bat
 ```
