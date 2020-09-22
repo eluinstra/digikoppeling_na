@@ -13,6 +13,7 @@ Installeer de volgende software
 - Java Cryptography Extension (JCE) Unlimited Strength
 - Tomcat 7 of hoger
 - SoapUI
+- JDBC driver voor de database
 
 Download de volgende software
 - [ebms-adapter-web-2.13.3.war](https://sourceforge.net/projects/muleebmsadapter/files/ebms/ebms-adapter-web/ebms-adapter-web-2.13.3.war/download) - bevat de EbMS adapter voor tomcat
@@ -113,11 +114,15 @@ ebms.jdbc.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
 ebms.jdbc.url=jdbc:sqlserver://<host>:<port>;databaseName=<dbname>;
 ```
 
+Download JDBC driver [hier](https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server)
+
 ##### MySQL
 ```properties
 ebms.jdbc.driverClassName=com.mysql.jdbc.Driver
 ebms.jdbc.url=jdbc:mysql://<host>:<port>/<dbname>
 ```
+
+Download JDBC driver [hier](https://dev.mysql.com/downloads/connector/j/)  
 
 ##### Oracle
 ```properties
@@ -125,11 +130,15 @@ ebms.jdbc.driverClassName=oracle.jdbc.OracleDriver
 ebms.jdbc.url=jdbc:oracle:thin:@<host>:<port>:<dbname>
 ```
 
+Download JDBC driver [hier](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html)
+
 ##### PostgreSQL
 ```properties
 ebms.jdbc.driverClassName=org.postgresql.Driver
 ebms.jdbc.url=jdbc:postgresql://<host>:<port>/<dbname>
 ```
+
+Download JDBC driver [hier](https://jdbc.postgresql.org/download.html)  
 
 #### Routeren via proxy server
 Het is ook mogelijk om uitgaand verkeerd te routeren via een proxy server.
@@ -150,13 +159,15 @@ Voer de volgende acties uit voor het installeren van de EbMS adapter
 
 #### Linux
 ```sh
-chown tomcat:tomcat ebms-web.properties keystore.jks truststore.jks
-cp ebms-web.properties keystore.jks truststore.jks $TOMCAT_HOME/conf/	
+chown tomcat:tomcat ebms-web.properties keystore.jks truststore.jks <jdbc-driver.jar>
+cp <jdbc-driver.jar> $TOMCAT_HOME/lib/
+cp ebms-web.properties keystore.jks truststore.jks $TOMCAT_HOME/conf/
 cp ebms-adapter-2.13.3.war $TOMCAT_HOME/webapps/ebms-adapter.war
 ```
 
 #### Windows
 ```sh
+copy <jdbc-driver.jar> %TOMCAT_HOME%\lib\
 copy ebms-web.properties %TOMCAT_HOME%\conf\
 copy keystore.jks %TOMCAT_HOME%\conf\
 copy truststore.jks %TOMCAT_HOME%\conf\
