@@ -31,8 +31,8 @@ De applicatie biedt de volgende properties voor Grote Berichten interface config
 
 `service.gb.url` bevat de url naar de Grote Berichten adapter.  
 `gb.fileShare` bevat het pad naar de directory waarin de bestanden worden aangeboden aan de Grote Berichten console. NB: de waarde is gelijk aan de waarde van de property.  
-`gb.fileShare` van de Grote Berichten adapter (zie Common).  
-`gb.uploadUrl` bevat de url naar de upload locatie op de Grote Berichten server (zie Grote Berichten Service Omgevingen, https://`<servernaam>`/gb/`<klantId>`/upload) die de Grote Berichten adapter gebruikt om bestanden naar toe te versturen.  
+`gb.fileShare` van de Grote Berichten adapter (zie [Common]({{ site.baseurl }}/handleiding/installatie-gb-adapter.html#common)).  
+`gb.uploadUrl` bevat de url naar de upload locatie op de Grote Berichten server (zie [Grote Berichten Service Omgevingen]({{ site.baseurl }}/handleiding/technische-beschrijving-gb.html#grote-berichten-service-omgevingen)), https://`<servernaam>`/gb/`<klantId>`/upload) die de Grote Berichten adapter gebruikt om bestanden naar toe te versturen.  
 `gb.maxSize` bevat de max file size in bytes die de Grote Berichten adapter gebruikt om bestanden te versturen. De waarde 0 betekent geen max file size.  
 `gb.compression` bevat de compressie methode die de Grote Berichten adapter gebruikt om bestanden te versturen (`NONE`\|`ZIP4J`).  
 

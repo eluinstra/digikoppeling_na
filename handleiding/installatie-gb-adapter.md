@@ -95,7 +95,7 @@ Het is ook mogelijk om uitgaand verkeerd te routeren via een proxy server.
 
 ![image]({{ site.baseurl }}/assets/images/gb-web-rproxy.png)
 
-Voeg hiervoor de volgende properties toe aan gb-web.properties (zie Configureren gb-web.properties):
+Voeg hiervoor de volgende properties toe aan gb-web.properties (zie [Configureren gb-web.properties](#configureren-gb-webproperties)):
 
 `http.proxyHost` bevat het ipadres of de hostname van de proxy server.  
 `http.proxyPort` bevat de port van de proxy server.  
