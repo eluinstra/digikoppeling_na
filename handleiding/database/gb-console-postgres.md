@@ -13,6 +13,6 @@ create table file_transaction
   status            NUMERIC(2)    NOT NULL,
   status_time       TIMESTAMP     NOT NULL,
   status_message    TEXT          NULL,
-  processed         TINYINT       NOT NULL
+  processed         SMALLINT      NOT NULL
 );
 ```
