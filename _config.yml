@@ -3,7 +3,7 @@ lang: en
 description: Beschrijving Grote Berichten Digikoppeling aansluiting Nationaal Archief
 
 # theme: jekyll-rtd-theme
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: rundocs/jekyll-rtd-theme@v1.1.7
 
 repository: eluinstra/digikoppeling_na
 
