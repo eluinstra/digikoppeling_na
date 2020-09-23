@@ -45,24 +45,24 @@ Het Nationaal Archief heeft een aantal Grote Berichten Service omgevingen waarme
 
 ### Grote Berichten Koppeling PRD Internet
 
-|URL [IP Adres]|	|
-|Certificaat|
-|Certificate Chain|
+URL [IP Adres]|	|
+Certificaat|
+Certificate Chain|
 
 ### Grote Berichten Koppeling TED Internet
 
-|URL [IP Adres]|	|
-|Certificaat|
-|Certificate Chain|
+URL [IP Adres]|	|
+Certificaat|
+Certificate Chain|
 
 ### Grote Berichten Koppeling PRD Haagse Ring
 
-|URL [IP Adres]|	|
-|Certificaat|
-|Certificate Chain|
+URL [IP Adres]|	|
+Certificaat|
+Certificate Chain|
 
 ### Grote Berichten Koppeling TED Haagse Ring
 
-|URL [IP Adres]|	|
-|Certificaat|
-|Certificate Chain|
+URL [IP Adres]|	|
+Certificaat|
+Certificate Chain|

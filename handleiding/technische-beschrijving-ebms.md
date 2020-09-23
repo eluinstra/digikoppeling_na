@@ -53,29 +53,28 @@ Vraag de actuele gegevens op bij het Nationaal Archief.
 
 ### EbMS Koppeling PRD Internet
 
-|Client IP Adres(sen)|	|
-|URL [Server IP Adres]|
-|Certificaat|
-|Certificate Chain|
+Client IP Adres(sen)|	|
+URL [Server IP Adres]|
+Certificaat|
+Certificate Chain|
 
 ### EbMS Koppeling TED Internet
 
-|Client IP Adres(sen)|	|
-|URL [Server IP Adres]|
-|Certificaat|
-|Certificate Chain|
+Client IP Adres(sen)|	|
+URL [Server IP Adres]|
+Certificaat|
+Certificate Chain|
 
 ### EbMS Koppeling PRD Haagse Ring
 
-|Client IP Adres(sen)|	|
-|URL [Server IP Adres]|
-|Certificaat|
-|Certificate Chain|
+Client IP Adres(sen)|	|
+URL [Server IP Adres]|
+Certificaat|
+Certificate Chain|
 
 ### EbMS Koppeling TED Haagse Ring
 
-|Client IP Adres(sen)|	|
-|URL [Server IP Adres]|
-|Certificaat|
-|Certificate Chain|
-
+Client IP Adres(sen)|	|
+URL [Server IP Adres]|
+Certificaat|
+Certificate Chain|
