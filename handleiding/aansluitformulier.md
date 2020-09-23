@@ -4,6 +4,8 @@ sort: 8
 
 # Digikoppeling Aansluitformulier
 
+Vraag het actuele aansluitformulier op bij het Nationaal Archief.
+
 ###### Organisatie
 
 |Naam|	|
@@ -27,8 +29,8 @@ sort: 8
 |Server IP adres|	|
 |Server URL	https://|
 |Client IP adres|
-|Filenaam certificaat([1](#1))|
-|Filenaam certificate chain([2](#2))|
+|Filenaam certificaat [^1]|
+|Filenaam certificate chain [^2]|
 
 
 ###### Grote Berichten Adapter TED
@@ -41,9 +43,5 @@ sort: 8
 |Emailadres|
 |Telefoonnummer|
 
-###### Note 1
-{: #1}
-SSL certificaat aanleveren in PEM formaat
-###### Note 2
-{: #2}
-SSL certificate chain aanleveren in 1 bestand in PEM formaat
+[^1]: SSL certificaat aanleveren in PEM formaat
+[^2]: SSL certificate chain aanleveren in 1 bestand in PEM formaat

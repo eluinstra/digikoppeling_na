@@ -4,7 +4,7 @@ sort: 7
 
 # openssl.conf
 
-```properties
+```ini
 oid_section = new_oids
 
 [ new_oids ]
@@ -13,7 +13,7 @@ serialNumber = 2.5.4.5
 [ req_distinguished_name ]
 serialNumber = OIN
 
-[req]
+[ req ]
 distinguished_name = req_distinguished_name
 
 [ req_distinguished_name ]
