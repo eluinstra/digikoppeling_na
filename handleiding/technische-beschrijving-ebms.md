@@ -24,14 +24,14 @@ De open source EbMS adapter heeft 2 interfaces
 
 De EbMS adapter slaat de binnengekomen en uitgaande berichten op in een database. De volgende databases worden ondersteunt
 - HSQLDB (test only)
-- MSSQL (zie [EbMS MSSQL Scripts]({{ site.baseurl }}{% link handleiding/database/ebms-mssql.md %}))
-- MySQL (zie [EbMS MySQL Scripts]({{ site.baseurl }}{% link handleiding/database/ebms-mysql.md %})))
-- Oracle (zie [EbMS Oracle Scripts]({{ site.baseurl }}{% link handleiding/database/ebms-oracle.md %})))
-- Postgresql (zie [EbMS Postgres Scripts]({{ site.baseurl }}{% link handleiding/database/ebms-postgres.md %})))
+- MSSQL (zie [EbMS MSSQL Scripts]({{ site.baseurl }}{% link database/ebms-mssql.md %}))
+- MySQL (zie [EbMS MySQL Scripts]({{ site.baseurl }}{% link database/ebms-mysql.md %})))
+- Oracle (zie [EbMS Oracle Scripts]({{ site.baseurl }}{% link database/ebms-oracle.md %})))
+- Postgresql (zie [EbMS Postgres Scripts]({{ site.baseurl }}{% link database/ebms-postgres.md %})))
 
 De SOAP interface bevat 2 services
-- CPA service voor het beheren van CPA’s en endpoint url’s (zie [CPA SOAP Interface]({{ site.baseurl }}{% link handleiding/soap/cpa.md %}))
-- EbMS service voor het verzenden, ontvangen en gereedmelden van berichten (zie [EbMS SOAP Interface]({{ site.baseurl }}{% link handleiding/soap/ebms.md %}))
+- CPA service voor het beheren van CPA’s en endpoint url’s (zie [CPA SOAP Interface]({{ site.baseurl }}{% link soap/cpa.md %}))
+- EbMS service voor het verzenden, ontvangen en gereedmelden van berichten (zie [EbMS SOAP Interface]({{ site.baseurl }}{% link soap/ebms.md %}))
 
 De proxy server is nodig om de EbMS interface te ontsluiten via het internet en de SOAP interface te blokkeren vanaf het internet. 
 

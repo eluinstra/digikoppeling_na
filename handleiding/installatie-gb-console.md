@@ -17,7 +17,7 @@ Zie [Configuratie Tomcat]({{ site.baseurl }}/handleiding/installatie-ebms.html#c
 
 ### Configureren gb-console.properties
 De applicatie maakt gebruik van properties. De default properties kunnen worden overridden. De locatie van de override properties file is `<catalina.home>/conf/gb-console.properties`  
-Hieronder volgt een overzicht van de belangrijkste properties per catogory die zouden kunnen worden overridden. [gb-console.properties]({{ site.baseurl }}{% link handleiding/properties/gb-console.md %}) bevat een voorbeeld van het `gb-console.properties` bestand.
+Hieronder volgt een overzicht van de belangrijkste properties per catogory die zouden kunnen worden overridden. [gb-console.properties]({{ site.baseurl }}{% link properties/gb-console.md %}) bevat een voorbeeld van het `gb-console.properties` bestand.
 
 ![image]({{ site.baseurl }}/assets/images/gb-web.png)
 

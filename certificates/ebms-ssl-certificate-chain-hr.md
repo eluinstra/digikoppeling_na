@@ -1,5 +1,5 @@
 ---
-sort: 4
+sort: 2
 ---
 
 # EbMS Haagse Ring SSL Certificate chain

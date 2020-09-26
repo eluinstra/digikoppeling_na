@@ -21,23 +21,23 @@ De open source Grote Berichten adapter heeft een SOAP interface voor het verzend
 
 De Grote Berichten adapter slaat de metadata van een Grote Berichten transactie op in een database. De volgende databases worden ondersteund
 - HSQLDB (test only)
-- MSSQL (zie [Grote Berichten MSSQL Scripts]({{ site.baseurl }}{% link handleiding/database/gb-mssql.md %}))
-- MySQL (zie [Grote Berichten MySQL Scripts]({{ site.baseurl }}{% link handleiding/database/gb-mysql.md %}))
-- Oracle (zie [Grote Berichten Oracle Scripts]({{ site.baseurl }}{% link handleiding/database/gb-oracle.md %}))
-- Postgresql (zie [Grote Berichten Postgres Scripts]({{ site.baseurl }}{% link handleiding/database/gb-postgres.md %}))
+- MSSQL (zie [Grote Berichten MSSQL Scripts]({{ site.baseurl }}{% link database/gb-mssql.md %}))
+- MySQL (zie [Grote Berichten MySQL Scripts]({{ site.baseurl }}{% link database/gb-mysql.md %}))
+- Oracle (zie [Grote Berichten Oracle Scripts]({{ site.baseurl }}{% link database/gb-oracle.md %}))
+- Postgresql (zie [Grote Berichten Postgres Scripts]({{ site.baseurl }}{% link database/gb-postgres.md %}))
 
 De bestanden zelf worden op disk opgeslagen.
 
-De SOAP interface de Grote Berichten service voor het verzenden en beheren van Grote Berichten transacties (zie [Grote Berichten SOAP Interface]({{ site.baseurl }}{% link handleiding/soap/gb.md %}))
+De SOAP interface de Grote Berichten service voor het verzenden en beheren van Grote Berichten transacties (zie [Grote Berichten SOAP Interface]({{ site.baseurl }}{% link soap/gb.md %}))
 
 De Grote Berichten console pakt bestanden op uit de File Share, stuurt de Grote Berichten console aan om deze te versturen naar het NA en stuurt de EbMS adapter aan om via de uploadExportBestand EbMS operatie de metadata (DataReferenceRequest) te versturen naar het NA. Ook verwerkt het de uploadExportBestandBevestiging EbMS operatie afkomstig van het NA voor het succesvol bevestigen van de upload van het bestand of het eventueel herversturen van het bestand via de Grote Berichten adapter.
 
 De Grote Berichten console slaat de metadata over de bestanden op in de database. De volgende databases worden ondersteund
 - HSQLDB (test only)
-- MSSQL (zie [Grote Berichten MSSQL Scripts]({{ site.baseurl }}{% link handleiding/database/gb-console-mssql.md %}))
-- MySQL (zie [Grote Berichten MySQL Scripts]({{ site.baseurl }}{% link handleiding/database/gb-console-mysql.md %}))
-- Oracle (zie [Grote Berichten Oracle Scripts]({{ site.baseurl }}{% link handleiding/database/gb-console-oracle.md %}))
-- Postgresql (zie [Grote Berichten Postgres Scripts]({{ site.baseurl }}{% link handleiding/database/gb-console-postgres.md %}))
+- MSSQL (zie [Grote Berichten MSSQL Scripts]({{ site.baseurl }}{% link database/gb-console-mssql.md %}))
+- MySQL (zie [Grote Berichten MySQL Scripts]({{ site.baseurl }}{% link database/gb-console-mysql.md %}))
+- Oracle (zie [Grote Berichten Oracle Scripts]({{ site.baseurl }}{% link database/gb-console-oracle.md %}))
+- Postgresql (zie [Grote Berichten Postgres Scripts]({{ site.baseurl }}{% link database/gb-console-postgres.md %}))
 
 ## Grote Berichten Service Omgevingen
 
