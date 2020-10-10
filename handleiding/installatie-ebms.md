@@ -16,8 +16,8 @@ Installeer de volgende software
 - JDBC driver voor de database
 
 Download de volgende software
-- [ebms-adapter-web-2.13.3.war](https://sourceforge.net/projects/muleebmsadapter/files/ebms/ebms-adapter-web/ebms-adapter-web-2.13.3.war/download) - bevat de EbMS adapter voor tomcat
-- [ebms-admin-2.13.3.jar](https://sourceforge.net/projects/javaebmsadmin/files/ebms-admin-2.13.3.jar/download) - bevat de EbMS Admin Console
+- [ebms-adapter-web-2.13.6.war](https://sourceforge.net/projects/muleebmsadapter/files/ebms/ebms-adapter-web/ebms-adapter-web-2.13.6.war/download) - bevat de EbMS adapter voor tomcat
+- [ebms-admin-2.13.6.jar](https://sourceforge.net/projects/javaebmsadmin/files/ebms-admin-2.13.6.jar/download) - bevat de EbMS Admin Console
 
 ## Configuratie Proxy server
 
@@ -162,7 +162,7 @@ Voer de volgende acties uit voor het installeren van de EbMS adapter
 chown tomcat:tomcat ebms-web.properties keystore.jks truststore.jks <jdbc-driver.jar>
 cp <jdbc-driver.jar> $TOMCAT_HOME/lib/
 cp ebms-web.properties keystore.jks truststore.jks $TOMCAT_HOME/conf/
-cp ebms-adapter-2.13.3.war $TOMCAT_HOME/webapps/ebms-adapter.war
+cp ebms-adapter-2.13.6.war $TOMCAT_HOME/webapps/ebms-adapter.war
 ```
 
 #### Windows
@@ -171,7 +171,7 @@ copy <jdbc-driver.jar> %TOMCAT_HOME%\lib\
 copy ebms-web.properties %TOMCAT_HOME%\conf\
 copy keystore.jks %TOMCAT_HOME%\conf\
 copy truststore.jks %TOMCAT_HOME%\conf\
-copy ebms-adapter-2.13.3.war %TOMCAT_HOME%\webapps\ebms-adapter.war
+copy ebms-adapter-2.13.6.war %TOMCAT_HOME%\webapps\ebms-adapter.war
 ```
 
 De ebms-adapter EbMS interface is vervolgens bereikbaar op [http://localhost:8080/ebms-adapter/ebms](http://localhost:8080/ebms-adapter/ebms).
@@ -192,8 +192,8 @@ Zie [ebms-admin.properties]({{ site.baseurl }}{% link properties/ebms-admin.md %
 #### Linux
 ```sh
 mkdir /opt/ebms-admin
-cp ebms-admin-2.13.3.jar ebms-admin.properties /opt/ebms-admin
-echo "nohup java -cp ebms-admin-2.13.3.jar nl.clockwork.ebms.admin.Start -port 8000 &" > /opt/ebms-admin/start.sh
+cp ebms-admin-2.13.6.jar ebms-admin.properties /opt/ebms-admin
+echo "nohup java -cp ebms-admin-2.13.6.jar nl.clockwork.ebms.admin.Start -port 8000 &" > /opt/ebms-admin/start.sh
 chmod u+x /opt/ebms-admin/start.sh
 ```
 
@@ -201,8 +201,8 @@ chmod u+x /opt/ebms-admin/start.sh
 ```powershell
 mkdir c:\ebms-admin
 copy ebms-admin.properties c:\ebms-admin\
-copy ebms-admin-2.13.3.jar c:\ebms-admin\
-echo java -cp ebms-admin-2.13.3.jar nl.clockwork.ebms.admin.Start -port 8000 > c:\ebms-admin\start.bat
+copy ebms-admin-2.13.6.jar c:\ebms-admin\
+echo java -cp ebms-admin-2.13.6.jar nl.clockwork.ebms.admin.Start -port 8000 > c:\ebms-admin\start.bat
 ```
 
 ### Starten EbMS Admin Console
