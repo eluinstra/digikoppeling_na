@@ -12,7 +12,6 @@ Installeer de volgende software
 - Java 7 of hoger
 - Java Cryptography Extension (JCE) Unlimited Strength
 - Tomcat 7 of hoger
-- SoapUI
 - [JDBC driver](#jdbc) voor de database
 
 Download de volgende software
