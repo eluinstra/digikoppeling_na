@@ -4,7 +4,7 @@ sort: 3
 
 # Installatie EbMS adapter
 
-Dit hoofdstuk beschrijft de installatie van de open source EbMS adapter. Deze handleiding gaat uit van het gebruik van de web versie van de EbMS adapter voor Tomcat. Er zijn ook andere versies mogelijk.
+Dit hoofdstuk beschrijft de installatie van de open source EbMS adapter. Deze handleiding gaat uit van het gebruik van de web versie van de EbMS adapter voor Tomcat.
 
 ## Benodigde software
 
