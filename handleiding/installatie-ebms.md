@@ -13,7 +13,7 @@ Installeer de volgende software
 - Java Cryptography Extension (JCE) Unlimited Strength
 - Tomcat 7 of hoger
 - SoapUI
-- JDBC driver voor de database
+- [JDBC driver](#jdbc) voor de database
 
 Download de volgende software
 - [ebms-adapter-web-2.13.6.war](https://sourceforge.net/projects/muleebmsadapter/files/ebms/ebms-adapter-web/ebms-adapter-web-2.13.6.war/download) - bevat de EbMS adapter voor tomcat
@@ -193,7 +193,8 @@ Zie [ebms-admin.properties]({{ site.baseurl }}{% link properties/ebms-admin.md %
 ```sh
 mkdir /opt/ebms-admin
 cp ebms-admin-2.13.6.jar ebms-admin.properties /opt/ebms-admin
-echo "nohup java -cp ebms-admin-2.13.6.jar nl.clockwork.ebms.admin.Start -port 8000 &" > /opt/ebms-admin/start.sh
+cp <jdbc-driver>.jar /opt/ebms-admin
+echo "nohup java -cp <jdbc-driver>.jar:ebms-admin-2.13.6.jar nl.clockwork.ebms.admin.Start -port 8000 &" > /opt/ebms-admin/start.sh
 chmod u+x /opt/ebms-admin/start.sh
 ```
 
@@ -202,7 +203,8 @@ chmod u+x /opt/ebms-admin/start.sh
 mkdir c:\ebms-admin
 copy ebms-admin.properties c:\ebms-admin\
 copy ebms-admin-2.13.6.jar c:\ebms-admin\
-echo java -cp ebms-admin-2.13.6.jar nl.clockwork.ebms.admin.Start -port 8000 > c:\ebms-admin\start.bat
+copy <jdbc-driver>.jar c:\ebms-admin\
+echo java -cp <jdbc-driver>.jar;ebms-admin-2.13.6.jar nl.clockwork.ebms.admin.Start -port 8000 > c:\ebms-admin\start.bat
 ```
 
 ### Starten EbMS Admin Console
