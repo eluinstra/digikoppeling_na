@@ -12,11 +12,11 @@ Installeer de volgende software
 - Java 7 of hoger
 - Java Cryptography Extension (JCE) Unlimited Strength
 - Tomcat 7 of hoger
-- [JDBC driver](#jdbc) voor de database
 
 Download de volgende software
 - [ebms-adapter-web-2.13.6.war](https://sourceforge.net/projects/muleebmsadapter/files/ebms/ebms-adapter-web/ebms-adapter-web-2.13.6.war/download) - bevat de EbMS adapter voor tomcat
 - [ebms-admin-2.13.6.jar](https://sourceforge.net/projects/javaebmsadmin/files/ebms-admin-2.13.6.jar/download) - bevat de EbMS Admin Console
+- [JDBC driver](#jdbc) voor de database
 
 ## Configuratie Proxy server
 
