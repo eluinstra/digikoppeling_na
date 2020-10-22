@@ -65,7 +65,7 @@ keytool -importkeystore -srcstoretype pkcs12 -srckeystore keystore.p12 -deststor
 
 ### Configureren ebms-web.properties
 De applicatie maakt gebruik van properties. De default properties kunnen worden overridden. De locatie van de override properties file is `<catalina.home>/conf/ebms-web.properties`  
-Hieronder volgt een overzicht van de belangrijkste properties per catogory die zouden kunnen worden overridden. [ebms-web.properties]({{ site.baseurl }}{% link properties/ebms-web.md %}) bevat een voorbeeld van het `ebms-web.properties` bestand.
+Hieronder volgt een overzicht van de belangrijkste properties per catogory die zouden kunnen worden overridden. [ebms-web.properties]({{ site.baseurl }}{% link handleiding/properties/ebms-web.md %}) bevat een voorbeeld van het `ebms-web.properties` bestand.
 
 ![image]({{ site.baseurl }}/assets/images/ebms-web.png)
 
@@ -184,7 +184,7 @@ De EbMS Admin Console is een losse applicatie waarmee de EbMS adapter kan worden
 ![image]({{ site.baseurl }}/assets/images/ebms-admin-rproxy.png)
 
 ### Configureren ebms-admin.properties  
-Zie [ebms-admin.properties]({{ site.baseurl }}{% link properties/ebms-admin.md %})
+Zie [ebms-admin.properties]({{ site.baseurl }}{% link handleiding/properties/ebms-admin.md %})
 
 ### Installeren EbMS Admin Console
 
